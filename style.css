@@ -17,10 +17,10 @@ max-width: 570px;
 .burger{
 	width: 15px;
 	background: gray;
-	display: inline-block;
 	height: 2px;
 	vertical-align: middle;
 	margin-left: calc(100% - 15px - 65px)
+	
 
 	
 }
@@ -61,10 +61,13 @@ font-size: 0;
 	padding: 7px 24px;
 	display: inline-block;
 	letter-spacing: 0,5px;
-	margin-left: calc(100%/2 - 58px)
+	margin-left: calc(100%/2 - 58px);
+	-webkit-transition: all 0.5s ease-out;
 
 }
 .button1:hover{
+	background-color: grey; 
+	-webkit-transform: scale(1.1);
 
 }
 .logo{
@@ -125,7 +128,6 @@ font-size: 0;
 	letter-spacing: 0.6px;
 }
 .title4{
-	/*width: 203px;*/
 	opacity: 0.75;
 	color: #000000;
 	font-family: Merriweather;
@@ -156,8 +158,22 @@ font-size: 0;
 	width: 196px;
 	height: 230px;
 	display: inline-block;
-	margin-left: calc(100%/2 - 65px - 170px)
+	margin-left: calc(100%/2 - 65px - 170px);
+	-webkit-transition: all 0.5s ease-out;
+	
 }
+.chair:hover{
+	-webkit-transform: scale(1.1);
+	 
+
+}
+.image img {
+ -
+ }
+ 
+.image img:hover{
+
+ }
 
 .third{
 	padding: 0 75px;
@@ -168,6 +184,10 @@ font-size: 0;
 	display: inline-block;
 	margin-left: 7.5px;
 	margin-bottom: 6.5px;
+	-webkit-transition: all 0.5s ease-out;
+}
+.works:hover{
+	-webkit-transform: scale(1.1);
 }
 .pict{
 	display: inline-block;
@@ -188,7 +208,6 @@ font-size: 0;
 	display: inline-block;
 	width: 326px;
 	height: 211px;
-	/*background: #70f5ea;*/
 	margin: 7.5px 4px;
 	vertical-align: middle;
 	padding-top: 31px;
@@ -197,19 +216,25 @@ font-size: 0;
 	background-size: cover;
 	background-blend-mode: soft-light;
 	transition-property: background-color color;
-
+	transition: all 0.5s;
 
 }
+
 .service1:hover{
 	background-color: #70f5ea;
-
-
 }
+.service1:hover > p{
+	color: #000000;
+}
+.service1:hover > h3{
+	color: #000000;
+}
+
+
 .service2{
 	display: inline-block;
 	width: 237px;
 	height: 211px;
-	/*background-color: #606060;*/
 	margin: 7.5px 4px;
 	vertical-align: middle;
 	padding-top: 92px;
@@ -217,8 +242,17 @@ font-size: 0;
 	background: #606060 url('./serv2.png') 100% 100% no-repeat;
 	background-size: cover;
 	background-blend-mode: soft-light;
+	transition: all 0.5s;
 
-
+}
+.service2:hover{
+	background-color: #70f5ea;
+}
+.service2:hover > p{
+	color: #000000;
+}
+.service2:hover > h3{
+	color: #000000;
 }
 .service3{
 	display: inline-block;
@@ -231,6 +265,16 @@ font-size: 0;
 	background: #606060 url('./serv3.png') 100% 100% no-repeat;
 	background-size: cover;
 	background-blend-mode: soft-light;
+	transition: all 0.5s;
+}
+.service3:hover{
+	background-color: #70f5ea;
+}
+.service3:hover > p{
+	color: #000000;
+}
+.service3:hover > h3{
+	color: #000000;
 }
 .service4{
 	display: inline-block;
@@ -243,6 +287,16 @@ font-size: 0;
 	background: #606060 url('./serv4.png') 100% 100% no-repeat;
 	background-size: cover;
 	background-blend-mode: soft-light;
+	transition: all 0.5s;
+}
+.service4:hover{
+	background-color: #70f5ea;
+}
+.service4:hover > p{
+	color: #000000;
+}
+.service4:hover > h3{
+	color: #000000;
 }
 .service5{
 	display: inline-block;
@@ -255,6 +309,16 @@ font-size: 0;
 	background: #606060 url('./serv5.png') 100% 100% no-repeat;
 	background-size: cover;
 	background-blend-mode: soft-light;
+	transition: all 0.5s;
+}
+.service5:hover{
+	background-color: #70f5ea;
+}
+.service5:hover > p{
+	color: #000000;
+}
+.service5:hover > h3{
+	color: #000000;
 }
 .service6{
 	display: inline-block;
@@ -267,7 +331,17 @@ font-size: 0;
 	background: #606060 url('./serv6.png') 100% 100% no-repeat;
 	background-size: cover;
 	background-blend-mode: soft-light;
+	transition: all 0.5s;
 
+}
+.service6:hover{
+	background-color: #70f5ea;
+}
+.service6:hover > p{
+	color: #000000;
+}
+.service6:hover > h3{
+	color: #000000;
 }
 .serv{
 	margin-bottom: 13px;
@@ -275,18 +349,14 @@ font-size: 0;
 	color: #ffffff;
 	transition-property: color;
 }
-.serv:hover{
-	color: #000000;
-}
+
 .serv_t{
 	margin-bottom: 30px;
 	margin-top: 0;
 	color: #ffffff;
 	transition-property: color;
 }
-.serv_t:hover{
-	color: #000000;
-}
+
 
 .serv_tt{
 	margin: 0;
@@ -299,19 +369,10 @@ font-size: 0;
 	letter-spacing: 0.35px;
 	transition-property: color;
 }
-.serv_tt:hover{
-	color: #000000;
-}
 
 
 
-./*service1 > h3{
-	color: #000000;
-}
-.service1 > p{
-	color: #000000;
-}
-*/
+
 .fifth{
 	padding: 0 75px;
 	background: #eff0f2;
@@ -334,11 +395,6 @@ font-size: 0;
 	margin-left: calc(100%/2 - 65px - 170px)
 }
 
-/*.img{ квадрат
-	width: calc((100% - 20px) /3)
-	margin-left: 10px;
-	padding-top: calc((100% - 20px) /3)
-}*/
 
 .fidback{
 	height: 181px;
@@ -363,6 +419,10 @@ font-size: 0;
 	position: absolute;
 	top: 0;
 	left: 15px;
+	-webkit-transition: all 0.5s ease-out;
+}
+.team3:hover{
+	-webkit-transform: scale(1.05);
 }
 .button{
 	width: 5px;
@@ -371,9 +431,12 @@ font-size: 0;
 	background-color: #eaebed;
 	display: inline-block;
 	transition-property: background-color;
+	-webkit-transition: all 0.5s ease-out;
 }
 .button:hover{
 	background-color: #70f5ea;
+	-webkit-transform: scale(1.1);
+
 }
 .butt{
 	text-align: center;
@@ -386,4 +449,16 @@ font-size: 0;
 }
 .star{
 	display: inline-block;
+}
+.teammember{
+	-webkit-transition: all 0.5s ease-out;
+}
+.teammember:hover{
+	-webkit-transform: scale(1.1);
+}
+
+
+.partners{
+	margin-left: calc(100%/2 - 285px)
+
 }
