@@ -376,9 +376,16 @@ font-size: 0;
 .fifth{
 	padding: 0 75px;
 	background: #eff0f2;
-	padding-bottom: /*56px*/;
+	padding-bottom: 56px;
 }
+.sixth{
+	padding: 0 75px;
+	padding-bottom: 56px;
+}
+.seventh{
+	padding: 63px 75px;
 
+}
 .services{
 	margin-left: calc(100%/2 - 65px - 225px)
 
@@ -443,9 +450,10 @@ font-size: 0;
 	margin-top: 10px;
 }
 
-.team{
+/*.team{
 	width: calc((100%-30px)/2);
-	margin: 0 auto;
+	margin: 0;*/
+	
 }
 .star{
 	display: inline-block;
@@ -453,7 +461,7 @@ font-size: 0;
 .teammember{
 	-webkit-transition: all 0.5s ease-out;
 }
-.teammember:hover{
+.speaker:hover .teammember{
 	-webkit-transform: scale(1.1);
 }
 
@@ -461,4 +469,204 @@ font-size: 0;
 .partners{
 	margin-left: calc(100%/2 - 285px)
 
+}
+
+
+.form{
+	width: 312px;
+	margin-left: calc((100%/2) - 275px);
+	background: black;
+	box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+    background-color: rgb(2, 22, 35);
+    opacity: 0.71;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+
+
+}
+#firstName, #subject, #email, textarea{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid grey;
+	width: 100%;
+}
+.submit{
+	background: #70f5ea;
+	border 0;
+	color: gray;
+	height: 26px;
+	width: 122px;
+
+}
+textarea{
+	color: gray;
+}
+.map{
+	width: 238px;
+	display: inline-block;
+	box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+    background-color: rgb(2, 22, 35);
+    opacity: 0.71;
+    margin-left: 10px;
+    padding: 4px 8px;
+	
+}
+.eighth{
+	
+	background: #eaebed url('./forest.jpg') 100% 100% no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	padding: 63px 75px;
+	
+}
+
+.map > p{
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 9px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0;
+
+}
+.nineth{
+	padding: 63px 75px;
+	background-color: black;
+	
+}
+.footer{
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 8px;
+	letter-spacing: 1;
+}
+.pinterest{
+ 	background: rgb(138 138 138) url('./Pinterest.svg') no-repeat 50% 50% /10px;
+ 	display: inline-block;
+}
+.twitt{
+	background: rgb(138 138 138) url('./Twitter.svg') no-repeat 50% 50% /10px;
+	display: inline-block;
+
+}
+.fb{
+	background: rgb(138 138 138) url('./Facebook.svg') no-repeat 50% 50% /10px;
+	display: inline-block;
+
+}
+.dribble{
+	background: rgb(138 138 138) url('./Dribble.svg') no-repeat 50% 50% /10px;
+	display: inline-block;
+
+}
+.links{
+	width: 23px;
+ 	height: 20px;
+ 	border-radius: 1px;
+	vertical-align: middle;
+	color: #ffffff;
+	filter: invert(100%);
+	opacity: 0.4;
+	margin: 5px 1px;
+
+}
+.links:hover{
+	background-color: #70f5ea;
+	filter: none;
+}
+.they{
+	background-color: #70f5ea;
+	width: 185px;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+
+}
+.triangle{
+	width: 0px;
+	height: 0px;
+	border: 5px solid transparent;
+	border-left-color: #70f5ea;
+	border-top-color:#70f5ea; 
+	transform: rotate(45deg);
+	position: relative;
+	left: 20px;
+	bottom: -5px;
+	
+
+}
+.says1{
+	position: absolute;
+	top: 100px;
+	display: none;
+	
+
+}
+.says2{
+	position: absolute;
+	top: 100px;
+	display: none;
+
+}
+.says3{
+	position: absolute;
+	top: 100px;
+	display: none;
+}
+.says4{
+	position: absolute;
+	top: 100px;
+	display: none;
+}
+.says5{
+	position: absolute;
+	top: 100px;
+	display: none;
+}
+.says6{
+	position: absolute;
+	top: 100px;
+	display: none;
+}
+.speaker{
+	position: relative;
+	display: inline-block;
+	margin: 10px 5px;
+	
+}
+.team{
+	width: calc((100% - 15px) / 2);
+	margin-left: calc((100% - 255px) /3);
+}
+
+/*.s1{
+	position: relative; 
+}*/
+
+
+.speaker:hover .says1{
+	display: block;
+
+}
+.speaker:hover .says2{
+	display: block;
+
+}
+.speaker:hover .says3{
+	display: block;
+
+}
+.speaker:hover .says4{
+	display: block;
+
+}
+.speaker:hover .says5{
+	display: block;
+
+}
+.speaker:hover .says6{
+	display: block;
 }
